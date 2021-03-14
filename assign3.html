@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<html>
+  <title>Assignment-3;</title>
+  <head>
+    <style>
+      .topbar {
+        background-color: white;
+        padding: 15px 30px;
+        box-sizing: border box;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .topbar a {
+        font-family: "Poppins", sans-serif;
+        font-weight: 70px;
+        margin: 0px 30px;
+        color: gray;
+        cursor: pointer;
+      }
+      .topbar a:hover {
+        text-decoration: underline;
+        text-decoration-skip-ink: none;
+        text-decoration-line: underline;
+        text-decoration: underline solid purple 3px;
+        color: black;
+      }
+      .topbar button {
+        padding: 15px 20px;
+        background-color: #ffd8db;
+        border-radius: 30px;
+        border: none;
+        color: #5c48da;
+        margin-right: 40px;
+      }
+      .main-body {
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+      }
+
+      #landing {
+        margin-right: 60px;
+        width: 770px;
+        height: 470px;
+        margin-top: 30px;
+      }
+      #para1 {
+        margin-top: 35px;
+        font-size: 50px;
+        font-family: "Poppins", sans-serif;
+        letter-spacing: 0.5px;
+        font-weight: 700;
+        margin-left: 150px;
+      }
+      #para2 {
+        margin-left: 140px;
+        margin-top: -20px;
+      }
+      .alignbutton {
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+      }
+
+      #button {
+        padding: 15px 30px;
+        border: none;
+        color: white;
+        background-color: #5141c0;
+        margin-left: 140px;
+        border-radius: 40px;
+        margin-top: 20px;
+      }
+      #btnicon {
+        margin-left: 20px;
+        margin-top: 20px;
+        height: 50px;
+      }
+      .list-item {
+        display: flex;
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="topbar">
+      <img
+        src="\images\stunning-logo.png"
+        width="150px"
+        height="50px"
+        alt="logo?"
+      />
+      <div>
+        <a>Home</a>
+        <a>About</a>
+        <a>blogs</a>
+        <a>jobs</a>
+      </div>
+      <button>Your Account</button>
+    </div>
+    <section class="main-body">
+      <article>
+        <div>
+          <p id="para1">Stunning Workplace<span style="color: blue">.</span></p>
+          <p id="para2">
+            with stunning,remote teams can organize projects,manage shifting
+            priorites,and get work done.
+          </p>
+
+          <div class="alignbutton">
+            <button id="button">New Account</button>
+
+            <img id="btnicon" src="\images\arrow-up.png" alt="arrow-up?" />
+            <img id="btnicon" src="\images\arrow-down.png" alt="arrow-down?" />
+          </div>
+        </div>
+        <!-- Bottom List Section -->
+        <section
+          style="padding-left: 140px; padding-right: 170px; margin-top: 100px"
+        >
+          <div
+            style="
+              display: flex;
+              align-items: center;
+              background-color: rgb(242, 244, 247);
+              border-radius: 10px;
+              padding: 5px;
+              padding-bottom: 5px;
+            "
+          >
+            <div
+              class="list-item"
+              style="
+                align-items: center;
+                flex: 1;
+                display: flex;
+                justify-content: space-around;
+              "
+            >
+              <img
+                style="border-radius: 50%"
+                src="/images/tick-gray.png"
+                alt=""
+                width="30px"
+                height="30px"
+              />
+              <span style="margin-right: 20px">Dmm design</span>
+            </div>
+
+            <div
+              class="list-item"
+              style="
+                flex: 1;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+              "
+            >
+              <img
+                src="/images/user-pink.png"
+                alt=""
+                width="30px"
+                height="30px"
+              />
+              <span>20 Dec</span>
+              <div
+                style="
+                  background-color: pink;
+                  padding: 4px;
+                  padding-right: 15px;
+                  border-radius: 10px;
+                "
+              ></div>
+            </div>
+          </div>
+          <div
+            style="
+              display: flex;
+              align-items: center;
+              background-color: white;
+              border-radius: 10px;
+              padding: 5px;
+            "
+          >
+            <div
+              class="list-item"
+              style="
+                align-items: center;
+                flex: 1;
+                display: flex;
+                justify-content: space-around;
+              "
+            >
+              <img
+                style="border-radius: 50%"
+                src="/images/tick-blue.png"
+                alt=""
+                width="30px"
+                height="30px"
+              />
+              <span style="margin-right: 2px">Blur annimation</span>
+            </div>
+
+            <div
+              class="list-item"
+              style="
+                flex: 1;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+              "
+            >
+              <img
+                src="/images/user-orange.png"
+                alt=""
+                width="30px"
+                height="30px"
+              />
+              <span>22 Dec</span>
+              <div
+                style="
+                  background-color: orangered;
+                  padding: 4px;
+                  padding-right: 15px;
+                  border-radius: 10px;
+                "
+              ></div>
+            </div>
+          </div>
+          <div
+            style="
+              display: flex;
+              align-items: center;
+              background-color: rgb(242, 244, 247);
+              border-radius: 10px;
+              padding: 5px;
+            "
+          >
+            <div
+              class="list-item"
+              style="
+                align-items: center;
+                flex: 1;
+                display: flex;
+                justify-content: space-around;
+              "
+            >
+              <img
+                style="border-radius: 50%"
+                src="/images/tick-gray.png"
+                alt=""
+                width="30px"
+                height="30px"
+              />
+              <span style="margin-right: 20px">Illustration</span>
+            </div>
+
+            <div
+              class="list-item"
+              style="
+                flex: 1;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+              "
+            >
+              <img
+                src="/images/user-blue.png"
+                alt=""
+                width="30px"
+                height="30px"
+              />
+              <span>26 Dec</span>
+              <div
+                style="
+                  background-color: lightgreen;
+                  padding: 4px;
+                  padding-right: 15px;
+                  border-radius: 10px;
+                "
+              ></div>
+            </div>
+          </div>
+          <div
+            style="
+              display: flex;
+              align-items: center;
+              background-color: rgb(242, 244, 247);
+              border-radius: 10px;
+              padding: 5px;
+            "
+          >
+            <div
+              class="list-item"
+              style="
+                align-items: center;
+                flex: 1;
+                display: flex;
+                justify-content: space-around;
+              "
+            >
+              <img
+                style="border-radius: 50%"
+                src="/images/tick-gray.png"
+                alt=""
+                width="30px"
+                height="30px"
+              />
+              <span style="margin-right: 20px">Refunds</span>
+            </div>
+
+            <div
+              class="list-item"
+              style="
+                flex: 1;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+              "
+            >
+              <img
+                src="/images/user-red.png"
+                alt=""
+                width="30px"
+                height="30px"
+              />
+              <span>28 Dec</span>
+              <div
+                style="
+                  background-color: lightsalmon;
+                  padding: 4px;
+                  padding-right: 15px;
+                  border-radius: 10px;
+                "
+              ></div>
+            </div>
+          </div>
+        </section>
+      </article>
+      <img
+        id="landing"
+        src="\images\landing-section-image.png"
+        alt="landing-section-image?"
+      />
+    </section>
+
+    <!-- <section>
+      <div id="list">
+        <div class="list-item">
+          <img src="/images/tick-gray.png" alt="" />
+          <span>Dmm design</span>
+        </div>
+
+        <div class="list-item">
+          <img src="/images/user-pink.png" alt="" />
+          <span>20 Dec</span>
+          <button class="btn-pink"></button>
+        </div>
+      </div>
+    </section> -->
+  </body>
+</html>
